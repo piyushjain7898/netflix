@@ -1,0 +1,447 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main {
+    background-image: url("img/background.jpg");
+    height: 125vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.main .box {
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.main .hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: 90vh;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    /* padding: 20px; */
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 84vw;
+    margin: auto;
+    align-items: center;
+    height: 154px;
+}
+
+nav img {
+    color: red;
+
+    position: relative;
+    z-index: 19;
+}
+
+button {
+    /* background-color: black; */
+    /* opacity: 0.4; */
+    color: white;
+    position: relative;
+    z-index: 10;
+    margin: 3px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'IBM Plex Sans', 'sans-serif' 'Inter', 'sans-serif'
+        'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 36px;
+    /* gap: 10px; */
+    text-align: center;
+    max-width: 95vw;
+}
+
+.hero> :nth-child(2) {
+    font-size: 25px;
+    text-align: center;
+    max-width: 95vw;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    text-align: center;
+    max-width: 95vw;
+}
+
+
+
+.line {
+    height: 7px;
+    background-color: rgb(70, 69, 69);
+}
+
+.btn {
+    padding: 6px 10px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-red-sn {
+    background-color: red;
+    padding: 6px 10px;
+}
+
+.btn-button {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 6px 19px;
+    font-weight: 100px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: medium;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.main input {
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    color: white;
+    padding: 14px 150px 14px 13px;
+    border-radius: 3px;
+    font-weight: 400px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 80vw;
+    color: white;
+    margin: auto;
+    align-items: center;
+}
+
+.image img {
+    width: 40vw;
+    position: relative;
+    z-index: 9;
+}
+
+.image {
+    position: relative;
+    z-index: 10px;
+}
+
+.image video {
+    position: absolute;
+    width: 35vw;
+    top: 50px;
+    right: 0;
+}
+
+.first div> :nth-child(1) {
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+.first div> :nth-child(2) {
+    font-size: 20px;
+
+}
+
+.image .image-video {
+    position: absolute;
+    width: 25vw;
+    top: 24px;
+    right: 0px;
+    left: 81px;
+}
+
+.one {
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.footer-first:hover {
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.footer-first {
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 68vw;
+    margin: 11px auto;
+    color: white;
+    height: 54px;
+    position: relative;
+    background-color: #2d2d2d;
+    align-items: center;
+    padding: 0px 13px 0px 21px;
+    /* gap: 3px; */
+
+}
+
+.chain input {
+
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    padding: 14px 150px 14px 13px;
+    border-radius: 3px;
+    font-weight: 400px;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0px 0px 45px 0px;
+
+}
+
+.chain .chain1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shooter1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* color: white; */
+
+}
+
+.shooter .shooter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 14px;
+}
+
+.shooter {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    height: 85vh;
+}
+
+.shooter .asdf {
+    margin: 33px 0px 30px 0px;
+}
+
+.shooter-item a {
+    /* text-decoration: none; */
+    color: white;
+    gap: 3px;
+}
+
+@media only screen and (max-width:450px) {
+
+
+    .hero> :nth-child(1) {
+        font-size: 26px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 23px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 20px;
+    }
+
+    .hero> :nth-child(4) {
+        /* display: none; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .btn-red {
+        width: 168px;
+        padding: 8px 0px 8px 4px;
+        margin: 12px 0px;
+
+    }
+
+    nav {
+        display: flex;
+        max-width: 94vw;
+        justify-content: space-between;
+    }
+
+    nav img {
+        width: 140px;
+    }
+
+    .main .hero {
+        height: 60vh;
+    }
+
+    nav .btn-button {
+        display: none;
+    }
+
+    nav .qwerty {
+        opacity: 1.3;
+        z-index: 10px;
+        position: relative;
+        background: black;
+        padding: 5px 6px;
+        border: 1px solid white;
+        border-radius: 3px;
+
+    }
+
+    .main {
+        height: 82vh;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 80vw;
+        color: white;
+        margin: auto;
+        align-items: center;
+    }
+
+    .first div> :nth-child(1) {
+        font-size: 25px;
+        font-weight: bolder;
+        float: center;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .first div> :nth-child(2) {
+        font-size: 12px;
+        text-align: center;
+        margin: 0px 0px 13px 0px;
+
+    }
+
+    .one {
+        font-size: 25px;
+    }
+
+    .chain input {
+        margin: 15px 0px 0px 23px;
+
+    }
+
+    .image .image-video {
+        left: 32px;
+    }
+
+    .image video {
+        position: absolute;
+        width: 35vw;
+        top: 34px;
+        right: 8px;
+    }
+
+    .chain .chain1 {
+        margin: 20px 0px 0px 0px;
+    }
+
+
+
+}
+
+@media only screen and (min-width:450px) {
+    nav .qwerty {
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .image video {
+        position: absolute;
+        width: 35vw;
+        top: 30px;
+        right: 8px;
+    }
+
+    .image .image-video {
+        position: absolute;
+        width: 25vw;
+        top: 15px;
+        right: 0px;
+        left: 44px;
+    }
+
+    .main .hero {
+
+        height: 60vh;
+    }
+
+    .hero> :nth-child(1) {
+        margin: 30px 0px;
+    }
+
+    .hero> :nth-child(3) {
+        margin: 8px 0px 35px 0px;
+    }
+    .first div > :nth-child(1) {
+        font-size: 30px;
+    }
+    .first div > :nth-child(2) {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:510px){
+    .hero> :nth-child(4) {
+        /* display: none; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-red{
+        margin: 22px 0px;
+    }
+    .chain input {
+        margin: 0px 0px 14px 0px;
+    }
+    .hero> :nth-child(1) {
+        font-size: 27px;
+    }
+}
